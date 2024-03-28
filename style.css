@@ -1,0 +1,112 @@
+/* DOCUMENTO CSS - Projeto CARD */
+
+@font-face {
+    font-family: cnfont;
+    src: url(Cartoon\ Slam.ttf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body {
+   font-family: 'Lucida Sans';
+   color: rgb(0, 0, 0);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+body h1 {
+font-family: "cnfont";
+   align-items: center;
+   text-align: center;
+   padding: 30px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   font-size: 45px;
+   justify-content: center;
+   border-radius: 15px;
+   color: rgb(0, 0, 0);
+   letter-spacing: 1.5px;
+}
+#topo {
+   height: 150px;
+   background-image: linear-gradient(to top, #ac6dff, #2c99ff);
+   padding: 45px;
+}
+#conteudo {
+   padding: 0px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   max-width: 1480px;
+   background-image: linear-gradient(to bottom, #ac6dff, rgb(0, 110, 255));
+}
+#conteudo a {
+   text-decoration: none;
+   color: black;
+}
+/* Mexe nos cards em geral */
+.card {
+   width: 235px;
+   height: 245px;
+   border: 3px solid black;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 0px;
+   box-shadow: 5px 5px 10px black;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   transition: all ease 0.5s;
+   text-align: center;
+   overflow: hidden;
+}
+.card:hover {
+   width: 287px;
+   height: auto;
+}
+/* mexe na imagem */
+.card figure {
+   width: 230px;
+   height: 290px;
+   background-color: transparent;
+   border-radius: 10px;
+}
+.card figure img {
+   width: 100%;
+}
+.card h2 {
+   font-family:"cnfont";
+   font-size: 40px;
+   margin-top: -5px;
+   color: rgb(0, 0, 0);
+   letter-spacing: 1.5px;
+}
+.card p {  
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-overflow: clip;
+   margin-top: 10px;
+   padding-bottom: 15px;
+}
+#rodape {
+
+   background-image: linear-gradient(to bottom, rgb(0, 110, 255), rgb(47, 91, 156));
+   width: 4000px;
+   height: 100%;
+   color: white;
+   text-align: center;
+}
+
+/* Mexe no texto do roda pé */
+#rodape p {
+   text-align: center;
+   padding-top: 45px;
+}
+
+#rodape img {
+   height: 200px;
+}
