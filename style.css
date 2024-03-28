@@ -89,7 +89,7 @@ font-family: "cnfont";
 .card p {  
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    text-overflow: clip;
-   margin-top: 10px;
+   margin-top: 20px;
    padding-bottom: 15px;
 }
 #rodape {
