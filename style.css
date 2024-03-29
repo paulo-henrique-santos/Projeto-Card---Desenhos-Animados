@@ -41,7 +41,7 @@ font-family: "cnfont";
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   justify-content: space-evenly;
+   justify-content: space-around;
    max-width: 1480px;
    background-image: linear-gradient(to bottom, #ac6dff, rgb(0, 110, 255));
 }
